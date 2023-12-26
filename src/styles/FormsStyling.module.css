@@ -1,0 +1,31 @@
+.content {
+    color: white;
+    margin: 20px 600px 20px 600px;
+}
+.styling {
+    border-radius: 10px;
+    background-color: rgb(136, 136, 227);
+    padding: 10px 0 10px 80px;
+}
+.InputStyling {
+    border-radius: 10px;
+    width: 190px;
+}
+.ButtonStyling {
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 5px;
+    padding: 3px;
+}
+.ShowData {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(136, 136, 227);
+    color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.FormInputs {
+    display: flex;
+    flex-direction: column;
+}
