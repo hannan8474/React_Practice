@@ -1,27 +1,10 @@
 .navbar {
-    display: flex;
-    background-color: rgba(47, 157, 198, 1);
-    justify-content: center;
+    background-color: rgba(47, 157, 198, 1) !important;
 }
-.brand-name {
+.nav-link {
     color: white;
-    padding-left: 10px;
-    font-weight: bold;
 }
-.brand-logo-name {
-    display: flex;
-    font-size: 10px;
-}
-.navigation-links {
-    margin-top: 20px;
-}
-.links {
-    list-style: none;
-    color: white;
-    font-weight: bold;
-    font-size: 10px;
-}
-.navigation {
-    display: inline;
-    padding: 7px;
+.active {
+    font-weight: bolder;
+    color: white !important;
 }

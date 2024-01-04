@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from "react-router-dom"
 import forms from '../styles/FormsStyling.module.css'
 
 const SocietyRegistrationForm = () => {
@@ -60,7 +61,7 @@ const SocietyRegistrationForm = () => {
                     </div>
 
                     <div>
-                        <button type="Submit" className={forms.ButtonStyling}>Register Now</button>
+                        <button type="Submit" className={forms.ButtonStyling}><Link to='/RegistrationConfirmed'>Register Now</Link></button>
                     </div>
                 </form>
             </div>
